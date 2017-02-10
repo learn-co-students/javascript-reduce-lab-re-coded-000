@@ -1,6 +1,8 @@
 describe('reducers', function() {
   describe('Technologic', function() {
     it('should have a `totalBatteries` variable', function() {
+        this.timeout(0);
+
       expect(totalBatteries).toExist();
     });
 
@@ -15,6 +17,7 @@ describe('reducers', function() {
 
   describe('The perfect monologue', function() {
     it('should have a `wordCountMap` variable', function() {
+      this.timeout(0);
       expect(wordCountMap).toExist();
     });
 
